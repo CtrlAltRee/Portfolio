@@ -32,17 +32,19 @@
     </nav>
 
     <main class="main">
-        <section id="home" class="rotate">
-            <span>adventurous</span>
-            <span>ambitous</span>
-            <span>creative</span>
-            <span>insightful</span>
-            <span>passionate</span>
-            <span>a web developer</span>
-        </section>  
+        <div class="feature">
+            <section id="home" class="rotate">
+                <span class="rotate-wds">adventurous</span>
+                <span class="rotate-wds">ambitous</span>
+                <span class="rotate-wds">creative</span>
+                <span class="rotate-wds">insightful</span>
+                <span class="rotate-wds">a web developer</span>
+            </section>
+        </div>  
 
         <section id="about">
             <header>Who Am I?</header>
+            <p>Hi, </p>
             <p>I'm Shareese</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem optio, similique officiis doloribus incidunt perferendis, eveniet eos accusamus atque nobis, non cumque. Aperiam, quia accusantium aut doloremque molestias quod ut.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptate eos odio alias aliquid maiores cum nisi natus necessitatibus vero pariatur optio omnis illum itaque amet unde modi, voluptatem iure!</p>
@@ -56,22 +58,22 @@
                     <div class="col-md-6">
                         <ul class="timeline">
                             <li>
-                                <h5>Program 1</h5>
+                                <header>Program 1</header>
                                 <small>07/2022 - present</small>
                                 <p></p>
                             </li>
                             <li>
-                                <h5>Program 2</h5>
+                                <header>Program 2</header>
                                 <small>01/2022 - 03/2022</small>
                                 <p></p>
                             </li>
                             <li>
-                                <h5>M.Ed. Speech-Language Pathology</h5>
+                                <header>M.Ed. Speech-Language Pathology</header>
                                 <small>2017 - 2020</small>
                                 <p></p>
                             </li>
                             <li>
-                                <h5>B.S. Child and Family Development</h5>
+                                <header>B.S. Child and Family Development</header>
                                 <small>2013 - 2017</small>
                                 <p></p>
                             </li>
@@ -81,17 +83,17 @@
                     <div class="col-md-6">
                         <ul class="timeline">
                             <li>
-                                <h5>Current Job</h5>
+                                <header>Current Job</header>
                                 <small>06/2021 - present</small>
                                 <p></p>
                             </li>
                             <li>
-                                <h5>Previous Job</h5>
+                                <header>Previous Job</header>
                                 <small>insert date</small>
                                 <p></p>
                             </li>
                             <li>
-                                <h5>Previous Job</h5>
+                                <header>Previous Job</header>
                                 <small>insert date</small>
                                 <p></p>
                             </li>
@@ -104,6 +106,14 @@
 
         <section id="skills">
             <header>Skills</header>
+            <p>My time in undergraduate and graduate school afforded me numerous opportunities to learn and grow a plethora of skills. A few of the soft transferrable skills, specific to my studies in speech-language pathology, include: verbal and written communication, active listening, critical thinking, orientation to detail, adaptability, and empathy.</p>
+            <span>What's my tech stack?</span>
+            <div class="icons">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" height="50px" width="50px">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" alt="CSS logo" height="50px" width="50px">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" alt="Bootstrap logo" height="50px" width="50px">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JavaScript logo" height="50px" width="50px">
+            </div>
             <li>
                 <h5>HTML5</h5>
             </li>
@@ -178,8 +188,8 @@
                         <form>
                             <div class="form-row">
                                 <div class="form-group col">
-                                    <label for="firstName"></label>
-                                    <input type="text" id="firstName" class="form-control" placeholder="Name">
+                                    <label for="fname"></label>
+                                    <input type="text" id="fname" class="form-control" placeholder="Name">
                                 </div>
                                 <div class="form-group col">
                                     <label for="email"></label>
@@ -198,6 +208,7 @@
                                     <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
                                 </div>
                             </div>
+                            <br>
                             <button type="submit" class="btn btn-success">Send</button>
                         </form>
                     </div>
