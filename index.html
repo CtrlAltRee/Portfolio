@@ -12,27 +12,27 @@
 </head>
 <body>
   
-    <nav>
+    <nav class="navbar">
         <header>Shareese</header>
         <header>Web Developer</header>
-        <ul>
-            <li><a rel="home" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a rel="about" href="#about"><i class="fa-solid fa-user"></i> About Me</a></li>
-            <li><a rel="resume" href="#resume"><i class="fa-solid fa-file"></i> Resume</a></li>
-            <li><a rel="skills" href="#skills"><i class="fa-regular fa-address-card"></i>  Skills</a></li>
-            <li><a rel="portfolio" href="#portfolio"><i class="fa-solid fa-laptop"></i> Projects</a></li>
-            <li><a href="/artwork.html" target="_blank"><i class="fa-solid fa-pencil"></i> Artwork</a></li>
-            <li><a rel="contact" href="#contact"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a rel="home" href="#home" class="nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li class="nav-item"><a rel="about" href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About Me</a></li>
+            <li class="nav-item"><a rel="resume" href="#resume" class="nav-link"><i class="fa-solid fa-file"></i> Resume</a></li>
+            <li class="nav-item"><a rel="skills" href="#skills" class="nav-link"><i class="fa-solid fa-bars-progress"></i> Skills</a></li>
+            <li class="nav-item"><a rel="portfolio" href="#portfolio" class="nav-link"><i class="fa-solid fa-laptop"></i> Projects</a></li>
+            <li class="nav-item"><a href="/artwork.html" target="_blank" class="nav-link"><i class="fa-solid fa-pencil"></i> Artwork</a></li>
+            <li class="nav-item"><a rel="contact" href="#contact" class="nav-link"><i class="fa-regular fa-envelope"></i> Contact</a></li>
         </ul>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/shareese-rucker/" target="_blank" class="fa-brands fa-linkedin-in"></a></li>
-            <li><a href="https://github.com/CtrlAltRee" target="_blank" class="fa-brands fa-github"></a></li>
-            <li><a href="https://twitter.com/CtrlAltRee" target="_blank" class="fa-brands fa-twitter"></a></li>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a href="https://www.linkedin.com/in/shareese-rucker/" target="_blank" class="fa-brands fa-linkedin-in nav-link"></a></li>
+            <li class="nav-item"><a href="https://github.com/CtrlAltRee" target="_blank" class="fa-brands fa-github nav-link"></a></li>
+            <li class="nav-item"><a href="https://twitter.com/CtrlAltRee" target="_blank" class="fa-brands fa-twitter nav-link"></a></li>
         </ul>
     </nav>
 
-    <main>
-        <section id="home">
+    <main class="main">
+        <section id="home" class="rotate">
             <span>adventurous</span>
             <span>ambitous</span>
             <span>creative</span>
@@ -116,27 +116,93 @@
         </section>
 
         <section id="portfolio">
-            <header>Portfolio</header>
+            <header>Some Things I've Built</header>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <article class="col-md-3">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///9VVVXr6+uurq7g4OAwMDCmpqYAAAC+vr6bm5tra2v8/PyIiIg1NTWPj498fHyFhYX19fWXl5dBQUFWVla9vb1kZGTm5uZcXFxQUFDT09NoaGgtLS2rq6vY2NjMzMxJSUkUFBQeHh47Ozs9+IdEAAACDElEQVR4nO3a63KaQBiA4Q0gICDLQeSgFRvv/x4rxCKimOA0jR/zPj/IZHFneAcX0EQpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwhf9fpvwcI11Mtyvinz7ur8uSZ2ZtrH99HN/HXT4zy6PwhbSF5hTNLHGFzi/7q0ynuZDKK5wwYUXhq6HwhuzCfVZ/+kAmutDbLPUh/2SC5MJleNpU5fAV+XWz5MLf7ba4DjKdMnXc3oDkwvd2q6v+7sg7beJD79FOcmHZHLZ/7H8wCvTHzze7G5JcmO8qI9/YvZ1/A5Vad8OSC1XurYv+krsEKr87i6ILByLd/608r8UZFV4HdonzKRwGKnVo36izKbwNPJ/FuRQGdwJPibb8wnhfNffD+4HtfVF44TL1vGMwGqj8tZmKLoz06fD9aBWNvtzfiP6eRp/LRk9hQ3Kh7k7do0TB61D33psPEuUW6qvFN5boxzuphdHg6nKdGMdWlkReuVgUUtfhMPCSaFhm5K0P22VWW82t8iizMLxzfwi1b2V6U2ztj7QzoeswuN2Ru07pJZUxHBdaOBytwnSbWHf/0DuHwn2wCurRCULXYRJevDuLJAmDEaHMa6nbV9fuQ80scYWTUfhKstkXWrv123QrQf8xpGLjCZICAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA9/sD52QdNdlDdQQAAAAASUVORK5CYII=">
-                    </div>
-                    <div class="col-md-3">
+                        <h3>Password Generator</h3>
+                        <p>
+                            <a href=""> <i class="fa-brands fa-github"></i></a>
+                            <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </p>
+                    </article>
+                    <article class="col-md-3">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///9VVVXr6+uurq7g4OAwMDCmpqYAAAC+vr6bm5tra2v8/PyIiIg1NTWPj498fHyFhYX19fWXl5dBQUFWVla9vb1kZGTm5uZcXFxQUFDT09NoaGgtLS2rq6vY2NjMzMxJSUkUFBQeHh47Ozs9+IdEAAACDElEQVR4nO3a63KaQBiA4Q0gICDLQeSgFRvv/x4rxCKimOA0jR/zPj/IZHFneAcX0EQpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwhf9fpvwcI11Mtyvinz7ur8uSZ2ZtrH99HN/HXT4zy6PwhbSF5hTNLHGFzi/7q0ynuZDKK5wwYUXhq6HwhuzCfVZ/+kAmutDbLPUh/2SC5MJleNpU5fAV+XWz5MLf7ba4DjKdMnXc3oDkwvd2q6v+7sg7beJD79FOcmHZHLZ/7H8wCvTHzze7G5JcmO8qI9/YvZ1/A5Vad8OSC1XurYv+krsEKr87i6ILByLd/608r8UZFV4HdonzKRwGKnVo36izKbwNPJ/FuRQGdwJPibb8wnhfNffD+4HtfVF44TL1vGMwGqj8tZmKLoz06fD9aBWNvtzfiP6eRp/LRk9hQ3Kh7k7do0TB61D33psPEuUW6qvFN5boxzuphdHg6nKdGMdWlkReuVgUUtfhMPCSaFhm5K0P22VWW82t8iizMLxzfwi1b2V6U2ztj7QzoeswuN2Ru07pJZUxHBdaOBytwnSbWHf/0DuHwn2wCurRCULXYRJevDuLJAmDEaHMa6nbV9fuQ80scYWTUfhKstkXWrv123QrQf8xpGLjCZICAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA9/sD52QdNdlDdQQAAAAASUVORK5CYII=">
-                    </div>
-                    <div class="col-md-3">
+                        <h3>Task List Planner</h3>
+                        <p>
+                            <a href=""> <i class="fa-brands fa-github"></i></a>
+                            <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </p>
+                    </article>
+                    <article class="col-md-3">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///9VVVXr6+uurq7g4OAwMDCmpqYAAAC+vr6bm5tra2v8/PyIiIg1NTWPj498fHyFhYX19fWXl5dBQUFWVla9vb1kZGTm5uZcXFxQUFDT09NoaGgtLS2rq6vY2NjMzMxJSUkUFBQeHh47Ozs9+IdEAAACDElEQVR4nO3a63KaQBiA4Q0gICDLQeSgFRvv/x4rxCKimOA0jR/zPj/IZHFneAcX0EQpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwhf9fpvwcI11Mtyvinz7ur8uSZ2ZtrH99HN/HXT4zy6PwhbSF5hTNLHGFzi/7q0ynuZDKK5wwYUXhq6HwhuzCfVZ/+kAmutDbLPUh/2SC5MJleNpU5fAV+XWz5MLf7ba4DjKdMnXc3oDkwvd2q6v+7sg7beJD79FOcmHZHLZ/7H8wCvTHzze7G5JcmO8qI9/YvZ1/A5Vad8OSC1XurYv+krsEKr87i6ILByLd/608r8UZFV4HdonzKRwGKnVo36izKbwNPJ/FuRQGdwJPibb8wnhfNffD+4HtfVF44TL1vGMwGqj8tZmKLoz06fD9aBWNvtzfiP6eRp/LRk9hQ3Kh7k7do0TB61D33psPEuUW6qvFN5boxzuphdHg6nKdGMdWlkReuVgUUtfhMPCSaFhm5K0P22VWW82t8iizMLxzfwi1b2V6U2ztj7QzoeswuN2Ru07pJZUxHBdaOBytwnSbWHf/0DuHwn2wCurRCULXYRJevDuLJAmDEaHMa6nbV9fuQ80scYWTUfhKstkXWrv123QrQf8xpGLjCZICAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA9/sD52QdNdlDdQQAAAAASUVORK5CYII=">
-                    </div>
-                    <div class="col-md-3">
+                        <h3>Calculator</h3>
+                        <p>
+                            <a href=""> <i class="fa-brands fa-github"></i></a>
+                            <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </p>
+                    </article>
+                    <article class="col-md-3">
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEX///9VVVXr6+uurq7g4OAwMDCmpqYAAAC+vr6bm5tra2v8/PyIiIg1NTWPj498fHyFhYX19fWXl5dBQUFWVla9vb1kZGTm5uZcXFxQUFDT09NoaGgtLS2rq6vY2NjMzMxJSUkUFBQeHh47Ozs9+IdEAAACDElEQVR4nO3a63KaQBiA4Q0gICDLQeSgFRvv/x4rxCKimOA0jR/zPj/IZHFneAcX0EQpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwhf9fpvwcI11Mtyvinz7ur8uSZ2ZtrH99HN/HXT4zy6PwhbSF5hTNLHGFzi/7q0ynuZDKK5wwYUXhq6HwhuzCfVZ/+kAmutDbLPUh/2SC5MJleNpU5fAV+XWz5MLf7ba4DjKdMnXc3oDkwvd2q6v+7sg7beJD79FOcmHZHLZ/7H8wCvTHzze7G5JcmO8qI9/YvZ1/A5Vad8OSC1XurYv+krsEKr87i6ILByLd/608r8UZFV4HdonzKRwGKnVo36izKbwNPJ/FuRQGdwJPibb8wnhfNffD+4HtfVF44TL1vGMwGqj8tZmKLoz06fD9aBWNvtzfiP6eRp/LRk9hQ3Kh7k7do0TB61D33psPEuUW6qvFN5boxzuphdHg6nKdGMdWlkReuVgUUtfhMPCSaFhm5K0P22VWW82t8iizMLxzfwi1b2V6U2ztj7QzoeswuN2Ru07pJZUxHBdaOBytwnSbWHf/0DuHwn2wCurRCULXYRJevDuLJAmDEaHMa6nbV9fuQ80scYWTUfhKstkXWrv123QrQf8xpGLjCZICAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADA9/sD52QdNdlDdQQAAAAASUVORK5CYII=">
-                    </div>
+                        <h3>Wrist Watch</h3>
+                        <p>
+                            <a href=""> <i class="fa-brands fa-github"></i></a>
+                            <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </p>
+                    </article>
                 </div>
             </div>
         </section>
 
         <section id="contact">
-            <header>Contact</header>
+            <header>Get In Touch</header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div>
+                            <ul>
+                                <li><i class="fa-sharp fa-solid fa-location-dot"></i> Georgia, USA</li>
+                                <li><i class="fa-regular fa-envelope"></i> insert email</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="https://www.linkedin.com/in/shareese-rucker/" target="_blank" class="fa-brands fa-linkedin-in"></a></li>
+                                <li><a href="https://github.com/CtrlAltRee" target="_blank" class="fa-brands fa-github"></a></li>
+                                <li><a href="https://twitter.com/CtrlAltRee" target="_blank" class="fa-brands fa-twitter"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="firstName"></label>
+                                    <input type="text" id="firstName" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group col">
+                                    <label for="email"></label>
+                                    <input type="email" id="email" class="form-control" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col">
+                                    <label for="subject"></label>
+                                    <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="message"></label>
+                                    <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-success">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
