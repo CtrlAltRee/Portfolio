@@ -14,6 +14,7 @@
     display: inline-block;
     padding-top: 1%;
     padding-left: 1%;
+    --bs-navbar-color: black;
 }
 
 .navbar a {
@@ -41,40 +42,73 @@
     height: 100px;
     display: flex;
     padding: 5px 5px;
+    padding-left: 0;
     opacity: 1;
     border-radius: 8px;
 }
 
 @keyframes rotate_words{
-    10%{
-      transform: translateY(-75%);
-    }
-    25%{
-      transform: translateY(-79%);
-    }
-    35%{
-      transform: translateY(-176%);
-    }
-    50%{
-      transform: translateY(-180%);
-    }
-    60%{
-      transform: translateY(-275%);
-    }
-    75%{
-      transform: translateY(-280%);
-    }
-    85%{
-      transform: translateY(-373%);
-    }
-    100%{
+10% {
+    transform: translateY(-75%);
+}
+25% {
+    transform: translateY(-79%);
+}
+35% {
+    transform: translateY(-176%);
+}
+50% {
+    transform: translateY(-180%);
+}
+60% {
+    transform: translateY(-275%);
+}
+75% {
+    transform: translateY(-280%);
+}
+85% {
+    transform: translateY(-373%);
+}
+100% {
       transform: translateY(-380%);
-    }
+}
     
-  }
+}
 
-  /* contact */
+/* skills */
+.icons img {
+    margin: 2%;
+}
 
-  #contact li {
+/* resume */
+#resume li {
     list-style: none;
-  }
+}
+
+.education li:before {
+    content: '\f19d';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+}
+
+.experience li:before {
+    content: '\f0b1';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+}
+
+/* portfolio */
+
+
+/* contact */
+
+#contact li {
+    list-style: none;
+    margin: 35px;
+}
+
+#contact a {
+    text-decoration: none;
+}
