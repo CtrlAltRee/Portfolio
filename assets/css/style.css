@@ -25,6 +25,17 @@
     color: green;
 }
 
+
+.initials {
+    font-style: italic;
+    color: green;
+    text-decoration: none;
+}
+
+.initial {
+    text-decoration: underline;
+}
+
 /* rotating text */
 .rotate {
     overflow: hidden;
@@ -111,4 +122,12 @@
 
 #contact a {
     text-decoration: none;
+}
+
+#contact .form-control {
+    border: 1px solid black;
+
+/* artwork */
+#artwork {
+    margin-top: 5%;
 }
