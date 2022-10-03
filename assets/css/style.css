@@ -16,6 +16,15 @@
     padding-left: 1%;
 }
 
+.navbar a {
+    padding: 6px;
+}
+
+.navbar a:hover {
+    color: green;
+}
+
+/* rotating text */
 .rotate {
     overflow: hidden;
 }
@@ -62,4 +71,10 @@
       transform: translateY(-380%);
     }
     
+  }
+
+  /* contact */
+
+  #contact li {
+    list-style: none;
   }
