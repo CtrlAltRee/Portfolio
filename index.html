@@ -20,14 +20,24 @@
         <header>Web Developer</header>
         <br>
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a rel="home" href="#home" class="nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li class="nav-item"><a rel="about" href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About Me</a></li>
-            <li class="nav-item"><a rel="resume" href="#resume" class="nav-link"><i class="fa-solid fa-file"></i> Resume</a></li>
-            <li class="nav-item"><a rel="skills" href="#skills" class="nav-link"><i class="fa-solid fa-bars-progress"></i> Skills</a></li>
-            <li class="nav-item"><a rel="portfolio" href="#portfolio" class="nav-link"><i class="fa-solid fa-laptop"></i> Projects</a></li>
-            <li class="nav-item"><a href="/artwork.html" target="_blank" class="nav-link"><i class="fa-solid fa-pencil"></i> Artwork</a></li>
-            <li class="nav-item"><a rel="contact" href="#contact" class="nav-link"><i class="fa-regular fa-envelope"></i> Contact</a></li>
+            <!-- previously used icons for menu 
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-laptop"></i>
+                <i class="fa-solid fa-file"></i> 
+                <i class="fa-solid fa-bars-progress"></i>
+                <i class="fa-solid fa-pencil"></i>
+                <i class="fa-regular fa-envelope"></i>
+            -->
+            <li class="nav-item"><a rel="home" href="#home" class="nav-link">// home</a></li>
+            <li class="nav-item"><a rel="about" href="#about" class="nav-link">// about me</a></li>
+            <li class="nav-item"><a rel="portfolio" href="#portfolio" class="nav-link">// projects</a></li>
+            <li class="nav-item"><a rel="resume" href="#resume" class="nav-link"> // resume</a></li>
+            <li class="nav-item"><a rel="skills" href="#skills" class="nav-link">// skills</a></li>
+            <li class="nav-item"><a href="/artwork.html" target="_blank" class="nav-link">// artwork</a></li>
+            <li class="nav-item"><a rel="contact" href="#contact" class="nav-link">// contact</a></li>
         </ul>
+        <br>
         <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a href="https://www.linkedin.com/in/shareese-rucker/" target="_blank" class="fa-brands fa-linkedin-in nav-link"></a></li>
             <li class="nav-item"><a href="https://github.com/CtrlAltRee" target="_blank" class="fa-brands fa-github nav-link"></a></li>
@@ -47,14 +57,66 @@
         </div>  
 
         <section id="about">
-            <header>Who Am I?</header>
             <span>Hi, </span>
+            <br>
             <span>I'm Shareese</span>
             <br>
             <br>
             <p>I'm the girl behind the code, a northeast Georgia native. I've always loved creating, and as a first generation college student, I was unsure of what direction to take. I found myself in a career that didn't suit me. I researched how to combine creativity and tech to help others, which led me to discovering UX/UI design and front end development. After a few life changes and many nights of self-reflection, I decided to pursue front end development.</p>
             <p>Here's to me trying to stop living a life bound by limitations, and here's to me being the least comfortable. When you're uncomfortable, transformations begin to take shape.</p>
             <p>I can't say no to cake decorating, wedding, and home decor shows, coffee (only because of cream and sugar), chai lattes, good brunch, and warm weather. I'm a sucker for aesthetically pleasing things.</p>
+        </section>
+
+        <section id="portfolio">
+            <header>Some Things I've Built</header>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <article class="col-md-3 card border-warning m-2" style="width: 25rem;">
+                        <img class="card-img-top" src="assets/images/password-generator.png" alt="password generator app">
+                        <div class="card-body">
+                            <header class="card-title">Password Generator</header>
+                            <p class="card-text">
+                                <a href=""> <i class="fa-brands fa-github"></i></a>
+                                <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col-md-3 card border-warning m-2" style="width: 25rem;">
+                        <img class="card-img-top" src="" alt="">
+                        <div class="card-body">
+                            <header class="card-title">Task Planner List</header>
+                            <p class="card-text">
+                                <a href=""> <i class="fa-brands fa-github"></i></a>
+                                <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </p>
+                        </div>
+                    </article>
+                <div>
+                <br>
+                <div class="row">
+                    <article class="col-md-3 card border-warning m-2" style="width: 25rem;">
+                        <img class="card-img-top" src="assets/images/calculator.png" alt="white calculator">
+                        <div class="card-body">
+                            <header class="card-title">Calculator</header>
+                            <p class="card-text">
+                                <a href=""> <i class="fa-brands fa-github"></i></a>
+                                <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col-md-3 card border-warning m-2" style="width: 25rem;">
+                        <img class="card-img-top" src="assets/images/wristwatch.png" alt="brown wrist watch">
+                        <div class="card-body">
+                            <header class="card-title">Wrist Watch</header>
+                            <p class="card-text">
+                                <a href=""> <i class="fa-brands fa-github"></i></a>
+                                <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
 
         <section id="resume">
@@ -118,7 +180,7 @@
 
         <section id="skills">
             <header>Skills</header>
-            <p>My time in undergraduate and graduate school afforded me numerous opportunities to learn and grow a plethora of skills. A few of the soft transferrable skills, specific to my studies in speech-language pathology, include: verbal and written communication, active listening, critical thinking, orientation to detail, adaptability, and empathy.</p>
+            <p>My time in undergraduate and graduate school, as well as in my web dev programs, have afforded me numerous opportunities to learn and grow a plethora of skills. A few of the soft transferrable skills include: verbal and written communication, active listening, critical thinking, orientation to detail, adaptability, and empathy.</p>
             <span>What's my tech stack?</span>
             <div class="icons">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="HTML logo" height="50px" width="50px">
@@ -137,60 +199,11 @@
             </li>
         </section>
 
-        <section id="portfolio">
-            <header>Some Things I've Built</header>
-            <br>
-            <div class="container">
-                <div class="row">
-                    <article class="col-md-3 card border-0" style="width: 25rem;">
-                        <img class="card-img-top" src="assets/images/password-generator.png" alt="password generator app">
-                        <div class="card-body">
-                            <header class="card-title">Password Generator</header>
-                            <p class="card-text">
-                                <a href=""> <i class="fa-brands fa-github"></i></a>
-                                <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </p>
-                        </div>
-                    </article>
-                    <article class="col-md-3 card border-0" style="width: 25rem;">
-                        <img class="card-img-top" src="assets/images/workinprogress.jpeg" alt="">
-                        <div class="card-body">
-                            <header class="card-title">Task Planner List</header>
-                            <p class="card-text">
-                                <a href=""> <i class="fa-brands fa-github"></i></a>
-                                <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </p>
-                        </div>
-                    </article>
-                    <article class="col-md-3 card border-0" style="width: 25rem;">
-                        <img class="card-img-top" src="assets/images/calculator.png" alt="white calculator">
-                        <div class="card-body">
-                            <header class="card-title">Calculator</header>
-                            <p class="card-text">
-                                <a href=""> <i class="fa-brands fa-github"></i></a>
-                                <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </p>
-                        </div>
-                    </article>
-                    <article class="col-md-3 card border-0" style="width: 25rem;">
-                        <img class="card-img-top" src="assets/images/wristwatch.png" alt="brown wrist watch">
-                        <div class="card-body">
-                            <header class="card-title">Wrist Watch</header>
-                            <p class="card-text">
-                                <a href=""> <i class="fa-brands fa-github"></i></a>
-                                <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
         <section id="contact">
             <header>Get In Touch</header>
             <p>If you have a question, request, or just want to say "Hi!", don't hesitate to contact me.</p>
             <div class="container">
-                <div class="row">
+                <div class="row border border-light rounded p-3">
                     <div class="col-md-6">
                         <div>
                             <ul>
