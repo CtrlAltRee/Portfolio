@@ -1,12 +1,24 @@
 .main {
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 2%;
+    padding-left: 1.5%;
+    background-image: url("/assets/images/nav-design.png");
+    background-repeat: no-repeat;
+    background-position: right top; /* option: right*/
+    background-attachment: scroll;
 }
+
+/* .nav-img {
+    background-image: url("../images/nav-design.png");
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: contain;
+} */
 
 /* navigation */
 .navbar {
     height: 100%;
-    width: 10%;
+    width: 15%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -14,21 +26,23 @@
     display: inline-block;
     padding-top: 1%;
     padding-left: 1%;
-    --bs-navbar-color: black;
-}
+    padding-right: 1%;
+    --bs-navbar-color: #f2ebd7;;
+    color: #f2ebd7;
+    background-color: #1a1a1a;
+} 
 
 .navbar a {
     padding: 6px;
 }
 
 .navbar a:hover {
-    color: green;
+    color: #acb884;
 }
-
 
 .initials {
     font-style: italic;
-    color: green;
+    color: #acb884;
     text-decoration: none;
 }
 
@@ -44,7 +58,7 @@
 .rotate-wds {
     display: block;
     height: 100%;
-    color: green;
+    color: #acb884;
     animation: rotate_words 15s infinite;
 }
 
@@ -101,6 +115,7 @@
     font-family: 'FontAwesome';
     float: left;
     margin-left: -1.5em;
+    color: #df8369;
 }
 
 .experience li:before {
@@ -108,10 +123,14 @@
     font-family: 'FontAwesome';
     float: left;
     margin-left: -1.5em;
+    color: #df8369;
 }
 
 /* portfolio */
 
+.card {
+    border: 1px solid #ffd07b;
+}
 
 /* contact */
 
@@ -122,10 +141,13 @@
 
 #contact a {
     text-decoration: none;
+    color: #5bc0de;
+
 }
 
 #contact .form-control {
-    border: 1px solid black;
+    border: none;
+    border-bottom: 1px solid #5bc0de;
 }    
 
 /* artwork */
