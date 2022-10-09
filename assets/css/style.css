@@ -16,6 +16,7 @@
 } */
 
 /* navigation */
+
 .navbar {
     height: 100%;
     width: 15%;
@@ -51,6 +52,7 @@
 }
 
 /* rotating text */
+
 .rotate {
     overflow: hidden;
 }
@@ -100,38 +102,36 @@
     
 }
 
-/* skills */
-.icons img {
-    margin: 2%;
+/* about */
+
+.about p {
+    margin-right: 15%;
 }
 
-/* resume */
-
-#resume li {
-    list-style: none;
-}
-
-.education li:before {
-    content: '\f19d';
-    font-family: 'FontAwesome';
+.about-icon {
     font-size: 0.75em;
-    float: left;
-    margin-left: -1.5em;
-    color: #df8369;
-}
-
-.experience li:before {
-    content: '\f0b1';
-    font-family: 'FontAwesome';
-    font-size: 0.75em;
-    float: left;
-    margin-left: -1.5em;
-    color: #df8369;
+    color: #acb884;
+    line-height: .5;
 }
 
 .btn-outline-dark {
     --bs-btn-hover-bg: #acb884;
 }
+
+.resume {
+    text-decoration: none;
+    color: #acb884;
+}
+
+/* skills */
+.skills p {
+    margin-right: 15%;
+}
+
+.icons img {
+    margin: 2%;
+}
+
 /* portfolio */
 
 .card {
@@ -160,6 +160,11 @@
 }
 
 /* artwork */
+
 #artwork {
     margin-top: 5%;
+}
+
+.artwork p {
+    margin-right: 15%;
 }
