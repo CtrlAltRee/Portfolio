@@ -114,16 +114,30 @@
     line-height: .5;
 }
 
-.btn-outline-dark {
-    --bs-btn-hover-bg: #acb884;
-}
-
 .resume {
     text-decoration: none;
     color: #acb884;
 }
 
+#about span {
+    color: #acb884;
+}
+
+/* portfolio */
+
+.card {
+    border: 1px solid #dfa36d;
+}
+
+#portfolio span {
+    color: #dfa36d;
+}
+
 /* skills */
+#skills span {
+    color: #ffd07b;
+}
+
 .skills p {
     margin-right: 15%;
 }
@@ -132,13 +146,10 @@
     margin: 2%;
 }
 
-/* portfolio */
-
-.card {
-    border: 1px solid #ffd07b;
-}
-
 /* contact */
+#contact span {
+    color: #5bc0de;
+}
 
 #contact li {
     list-style: none;
@@ -157,6 +168,10 @@
 
 .contact-icon {
     color: #5bc0de;
+}
+
+.btn-outline-dark {
+    --bs-btn-hover-bg: #5bc0de;
 }
 
 /* artwork */
