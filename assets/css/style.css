@@ -140,6 +140,14 @@
     color: #dfa36d;
 }
 
+.img-project {
+    border: 3px double #dfa36d;
+}
+
+.icon-projects {
+    margin: 10px;
+  }
+
 /* skills */
 
 #skills span {
