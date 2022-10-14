@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>s.rucker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -13,7 +16,7 @@
 
     <nav class="navbar">
         <a rel="home" href="index.html" class="initials">
-            <header>D<span class="initial">S</span>R</header>
+            <header class="initial-header">D<span class="initial">S</span>R</header>
         </a>
         <header>Shareese</header>
         <header>Web Developer</header>
@@ -82,8 +85,14 @@
                     </div>
                     <div class="col-md-4">
                         <h5><i class="fa-sharp fa-solid fa-graduation-cap about-icon"></i> Education</h5>
-                        <p>University of West Georgia</p>
-                        <p>Georgia Southern University</p>
+                        <p class="mb-0">Generation USA</p>
+                        <div class="subheading mb-3"><small>Jr. Web Developer</small></div>
+                        <p class="mb-0">TechBridge, Inc</p>
+                        <div class="subheading mb-3"><small>Front End Web Developer</small></div>
+                        <p class="mb-0">University of West Georgia</p>
+                        <div class="subheading mb-3"><small>M.Ed. Speech-Language Pathology</small></div>
+                        <p class="mb-0">Georgia Southern University</p>
+                        <div class="subheading mb-3"><small>B.S. Child and Family Development</small></div>
                     </div>
                 </div>
             </section>
@@ -98,31 +107,33 @@
             <h3>Projects<span>.</span></h3>
             <br>
             <div class="container ms-0">
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <img class="img-project" src="assets/images/password-generator.png" alt="password generator app" width="450px">
+                <div class="row">
+                  <div class="col-md-6 px-0">
+                    <img class="img-project" src="assets/images/password-generator.png" alt="password generator app" width="400px">
                     <p class="icon-projects">
                     <a href=""> <i class="fa-brands fa-github"></i></a>
                      <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </p>
-                    <p><small>HTML. CSS. </small></p>
+                    <p><small>HTML. CSS. JavaScript</small></p>
                   </div>
-                  <div class="col-md-6">
-                    <img class="img-project" src="assets/images/calculator.png" alt="white calculator" width="450px">
+                  <div class="col-md-6 px-0">
+                    <img class="img-project" src="assets/images/calculator.png" alt="white calculator" width="400px">
                     <p class="icon-projects">
                     <a href=""> <i class="fa-brands fa-github"></i></a>
                     <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </p>
+                    <p><small>HTML. CSS. JavaScript</small></p>
                   </div>
                 </div>
                 <br>
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <img class="img-project" src="assets/images/wristwatch.png" alt="brown wrist watch" width="450px">
+                <div class="row">
+                  <div class="col-md-6 px-0">
+                    <img class="img-project" src="assets/images/wristwatch.png" alt="brown wrist watch" width="400px">
                     <p class="icon-projects">
                     <a href=""> <i class="fa-brands fa-github"></i></a>
                     <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </p>
+                    <p><small>HTML. CSS. JavaScript</small></p>
                   </div>
                 </div>
               </div>
@@ -205,7 +216,7 @@
         <section id="contact">
             <h3>Contact<span>.<span></h3>
             <div class="container">
-                <div class="row border border-light rounded p-3 contact-form">
+                <div class="row p-3 contact-form">
                     <div class="col-md-6">
                         <div>
                             <ul>

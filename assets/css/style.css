@@ -1,10 +1,14 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .main {
     margin-left: 15%;
     margin-right: 2%;
     padding-left: 1.5%;
     background-image: url("../images/nav-design.png");
     background-repeat: no-repeat;
-    background-position: right top; /*option: right center*/
+    background-position: right center; /*option: right top*/
     background-attachment: scroll;
 }
 
@@ -16,7 +20,6 @@
 } */
 
 /* navigation */
-
 .navbar {
     height: 100%;
     width: 15%;
@@ -32,6 +35,10 @@
     color: #f2ebd7;
     background-color: #1a1a1a;
 } 
+
+.initial-header {
+    font-size: 1.5rem;
+}
 
 .navbar a {
     padding: 6px;
@@ -52,7 +59,6 @@
 }
 
 /* rotating text */
-
 .rotate {
     overflow: hidden;
 }
@@ -131,7 +137,6 @@
 }
 
 /* portfolio */
-
 .card {
     border: 1px solid #dfa36d;
 }
@@ -148,8 +153,11 @@
     margin: 10px;
   }
 
-/* skills */
+.icon-projects a:hover {
+    color: #dfa36d;
+}
 
+/* skills */
 #skills span {
     color: #ffd07b;
 }
