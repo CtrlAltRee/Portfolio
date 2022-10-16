@@ -8,8 +8,8 @@ body {
     padding-left: 1.5%;
     background-image: url("../images/nav-design.png");
     background-repeat: no-repeat;
-    background-position: right center; /*option: right top*/
-    background-attachment: scroll;
+    background-position: right center; /* option: right top */
+    background-attachment: scroll; 
 }
 
 /* .nav-img {
@@ -38,6 +38,12 @@ body {
 
 .initial-header {
     font-size: 1.5rem;
+}
+
+.main-img {
+    margin-right: 2%;
+    margin-bottom: 5%;
+    border-radius: 80%;
 }
 
 .navbar a {
@@ -170,6 +176,76 @@ body {
     margin: 2%;
 }
 
+.progress-skills {
+    width: 500px;
+    color: black;
+}
+  
+.progress-skills li {
+    margin: 20px 0;
+    list-style: none;
+}
+  
+.bar {
+    display: block;
+    height: 5px;
+    border: 1px solid #ffd07b;
+    border-radius: 5px;
+    box-shadow: 0 0 2.5px #a07bff;
+}
+  
+/* #e27bff
+   */
+  
+.bar span {
+    height: 4px;
+    margin-top: 0.5px;
+    float: left;
+    background: #ffd07b;
+}
+  
+.html {
+    width: 85%;
+    animation: html 5s infinite;
+}
+  
+.css {
+    width: 70%;
+    animation: css 5s infinite;
+}
+  
+.javascript {
+    width: 50%;
+     animation: javascript 5s infinite;
+}
+  
+@keyframes html {
+    0% {
+      width: 0%;
+}
+    100% {
+      width: 80%;
+}
+}
+  
+@keyframes css {
+    0% {
+      width: 0%;
+}
+    100% {
+      width: 70%;
+}
+}
+  
+@keyframes javascript {
+    0% {
+      width: 0%;
+}
+    100% {
+      width: 50%;
+}
+}
+
 /* contact */
 #contact span {
     color: #5bc0de;
@@ -181,7 +257,7 @@ body {
 
 #contact li {
     list-style: none;
-    margin: 35px;
+    margin: 25px;
     display: inline-block;
 }
 
