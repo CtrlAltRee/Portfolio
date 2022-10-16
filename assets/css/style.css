@@ -40,11 +40,12 @@ body {
     font-size: 1.5rem;
 }
 
-.main-img {
+/* for image */
+/* .main-img {
     margin-right: 2%;
     margin-bottom: 5%;
     border-radius: 80%;
-}
+} */
 
 .navbar a {
     padding: 6px;
@@ -120,7 +121,7 @@ body {
 }
 
 .about p {
-    margin-right: 15%;
+    margin-right: 20%;
 }
 
 .about-icon {
@@ -138,6 +139,10 @@ body {
     color: black;
 }
 
+.resume-icon {
+    font-size: 0.75em;
+}
+
 #about span {
     color: #acb884;
 }
@@ -149,6 +154,10 @@ body {
 
 #portfolio span {
     color: #dfa36d;
+}
+
+#portfolio .container {
+    --bs-gutter-x: 0;
 }
 
 .img-project {
@@ -255,10 +264,20 @@ body {
     margin-right: 15%;
 }
 
+#contact ul {
+display: flex;
+list-style-type: none;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0;
+-webkit-margin-end: 0;
+-webkit-padding-start: 0px; 
+}
+
 #contact li {
-    list-style: none;
-    margin: 25px;
-    display: inline-block;
+    margin-top: 10px;
+    padding-right: 70px;
+    font-size: 1.3em;
 }
 
 #contact a {
@@ -271,15 +290,15 @@ body {
     border-bottom: 1px solid #5bc0de;
 }
 
-.contact-icon {
-    color: #5bc0de;
-}
-
 .btn-outline-dark {
     --bs-btn-hover-bg: #5bc0de;
     --bs-btn-border-color: #5bc0de;
 }
 
+.email {
+    text-decoration: wavy underline;
+    text-decoration-color: #5bc0de;
+}
 /* artwork */
 
 #artwork {
