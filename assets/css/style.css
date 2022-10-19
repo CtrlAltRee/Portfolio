@@ -1,12 +1,42 @@
+* {
+    cursor: none;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #eaeaea;
+    /* #dadada */
+}
+
+.cursor {
+    height: 0.5em;
+    width: 0.5em;
+    background-color: transparent;
+    border: 1px solid #000033;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    pointer-events: none;
+    z-index: 3;
+}
+  
+.cursor-trail {
+    height: 1.5em;
+    width: 1.5em;
+    background-color: #acb884;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    pointer-events: none;
+    z-index: 2;
 }
 
 .main {
     margin-left: 15%;
     margin-right: 2%;
     padding-left: 1.5%;
-    background-image: url("../images/nav-design.png");
+    background-image: url("../images/bckground-image.png");
     background-repeat: no-repeat;
     background-position: right top; /* option: right top */
     background-attachment: scroll; 
@@ -119,6 +149,10 @@ h2, h3, h5, h6, p, small {
     
 }
 
+#home span {
+    font-size: 1.25em;
+}
+
 /* about */
 .about span {
     color: #acb884;  
@@ -149,6 +183,11 @@ h2, h3, h5, h6, p, small {
 
 #about span {
     color: #acb884;
+    font-size: 1.5em;
+}
+
+#about-period {
+    font-size: 1.5em;
 }
 
 /* portfolio */
@@ -158,6 +197,7 @@ h2, h3, h5, h6, p, small {
 
 #portfolio span {
     color: #dfa36d;
+    font-size: 1.5em;
 }
 
 #portfolio .container {
@@ -166,6 +206,7 @@ h2, h3, h5, h6, p, small {
 
 .img-project {
     border: 3px double #dfa36d;
+    border-radius: 30px;
 }
 
 .icon-projects {
@@ -179,6 +220,7 @@ h2, h3, h5, h6, p, small {
 /* skills */
 #skills span {
     color: #ffd07b;
+    font-size: 1.5em;
 }
 
 .skills p {
@@ -204,7 +246,7 @@ h2, h3, h5, h6, p, small {
     height: 5px;
     border: 1px solid #ffd07b;
     border-radius: 5px;
-    box-shadow: 0 0 2.5px #a07bff;
+    box-shadow: 0 0 3px #7155b8;
 }
   
 /* #e27bff
@@ -212,7 +254,7 @@ h2, h3, h5, h6, p, small {
   
 .bar span {
     height: 4px;
-    margin-top: 0.5px;
+    /* margin-top: 0.5px; */
     float: left;
     background: #ffd07b;
 }
@@ -262,6 +304,7 @@ h2, h3, h5, h6, p, small {
 /* contact */
 #contact span {
     color: #5bc0de;
+    font-size: 1.5em;
 }
 
 .contact-form {
@@ -300,7 +343,7 @@ list-style-type: none;
 }
 
 .email {
-    text-decoration: wavy underline;
+    text-decoration: underline;
     text-decoration-color: #5bc0de;
 }
 /* artwork */
@@ -310,7 +353,7 @@ list-style-type: none;
 }
 
 .artwork p {
-    margin-right: 15%;
+    margin-right: 20%;
 }
 
 /* scroll button */
