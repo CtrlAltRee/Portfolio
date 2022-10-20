@@ -194,7 +194,7 @@ h2, h3, h5, h6, p, small {
 .education div {
     display: inline-block;
     margin-right: 7%;
-  }
+}
 
 /* portfolio */
 .card {
@@ -222,7 +222,7 @@ h2, h3, h5, h6, p, small {
 
 .icon-projects {
     margin-top: 10px;
-  }
+}
 
 .icon-projects a:hover {
     color: #dfa36d;
@@ -373,6 +373,10 @@ list-style-type: none;
 
 #embroidery span {
     font-size: 1.25em;
+}
+
+.artpics {
+    transform: scale(1.2, 1.2);
 }
 
 /* scroll button */
