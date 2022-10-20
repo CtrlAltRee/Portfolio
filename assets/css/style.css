@@ -38,7 +38,7 @@ body {
     padding-left: 1.5%;
     background-image: url("../images/bckground-image.png");
     background-repeat: no-repeat;
-    background-position: right top; /* option: right top */
+    background-position: right center; /* option: right top */
     background-attachment: scroll; 
 }
 
@@ -158,8 +158,8 @@ h2, h3, h5, h6, p, small {
     color: #acb884;  
 }
 
-.about p {
-    margin-right: 20%;
+.about-para {
+    margin-right: 10%;
 }
 
 .about-icon {
@@ -170,7 +170,7 @@ h2, h3, h5, h6, p, small {
 
 .resume {
     text-decoration: none;
-    color: #acb884;
+    color: #000033;;
 }
 
 .resume:hover {
@@ -179,6 +179,7 @@ h2, h3, h5, h6, p, small {
 
 .resume-icon {
     font-size: 0.75em;
+    color: #acb884;
 }
 
 #about span {
@@ -189,6 +190,11 @@ h2, h3, h5, h6, p, small {
 #about-period {
     font-size: 1.5em;
 }
+
+.education div {
+    display: inline-block;
+    margin-right: 7%;
+  }
 
 /* portfolio */
 .card {
@@ -207,6 +213,11 @@ h2, h3, h5, h6, p, small {
 .img-project {
     border: 3px double #dfa36d;
     border-radius: 30px;
+    filter: grayscale(90%);
+}
+
+.img-project:hover {
+    filter: none;
 }
 
 .icon-projects {
@@ -224,7 +235,7 @@ h2, h3, h5, h6, p, small {
 }
 
 .skills p {
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .icons img {
@@ -352,8 +363,16 @@ list-style-type: none;
     margin-top: 5%;
 }
 
+#artwork span {
+    font-size: 1.25em;
+}
+
 .artwork p {
     margin-right: 20%;
+}
+
+#embroidery span {
+    font-size: 1.25em;
 }
 
 /* scroll button */
