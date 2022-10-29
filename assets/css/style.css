@@ -248,23 +248,23 @@ h2, h3, h5, h6, p, small {
     margin: 2%;
 }
 
-.progress-skills {
+/* .progress-skills {
     width: 500px;
     color: black;
-}
+} */
   
-.progress-skills li {
+/* .progress-skills li {
     margin: 20px 0;
     list-style: none;
-}
+} */
   
-.bar {
+/* .bar {
     display: block;
     height: 5px;
     border: 1px solid #ffd07b;
     border-radius: 5px;
     box-shadow: 0 0 3px #7155b8;
-}
+} */
   
 /* #e27bff
    */
@@ -368,6 +368,7 @@ list-style-type: none;
 .email {
     text-decoration: underline;
     text-decoration-color: #5bc0de;
+    display: inline-block;
 }
 
 /* artwork */
