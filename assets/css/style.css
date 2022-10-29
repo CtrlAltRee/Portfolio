@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     background-color: #eaeaea;
     /* #dadada */
 }
@@ -44,6 +45,7 @@ body {
 
 h2, h3, h5, h6, p, small {
     color: #000033;
+    font-weight: 300;
 }
 
 /* .nav-img {
@@ -163,9 +165,12 @@ h2, h3, h5, h6, p, small {
 }
 
 .about-para a {
+    text-decoration-style: double;
     text-decoration-color: #acb884;
     color: #000033; 
+    font-weight: 400;
 }
+
 
 .about-icon {
     font-size: 0.75em;
