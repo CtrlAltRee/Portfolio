@@ -2,11 +2,18 @@
 
 I'm a Georgia-based web developer and former speech-language pathologist.
 
-## Portfolio Description
+## Description
 
 I have created my own portfolio page utilizing HTML, CSS, Bootstrap, and JavaScript.
 
 Check it out: [Portfolio](https://ctrlaltree.github.io/Portfolio/)
+
+## Visuals 
+
+![screenshot](assets/images/portfolio-1.png)
+![screenshot](assets/images/portfolio-2.png)
+![screenshot](assets/images/portfolio-3.png)
+
 
 ## Questions?
 Please feel free to contact me with any questions via email or LinkedIn.
